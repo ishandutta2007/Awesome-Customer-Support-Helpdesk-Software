@@ -1,6 +1,6 @@
 # Awesome-Customer-Support-Helpdesk-Software
 
-# Top Customer Support & Helpdesk Software Ecosystem
+## Top Customer Support & Helpdesk Software Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Ticket Management, Shared Inboxes & Omnichannel Customer Support*  
