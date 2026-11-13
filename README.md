@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishnndutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software" alt="License" /></a>
@@ -63,7 +63,7 @@ Below is a comparison of leading commercial customer support and helpdesk platfo
 
 Self-hosted ticketing systems, open-source helpdesks, and community-driven shared mailboxes. Sorted in descending order by GitHub stargazers count ⭐.
 
-| Project | Stars | Tech Stack | License | Description |
+| Project | GitHub_Stars | Tech Stack | License | Description |
 |:---|:---:|:---|:---|:---|
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | Ruby on Rails, Vue.js, PostgreSQL | AGPL-3.0 | Modern omnichannel customer engagement suite and open-source alternative to Intercom, Zendesk, and Drift. Supports website live chat, WhatsApp, Twitter/X, Facebook, email inboxes, and webhooks. |
 | **[UVdesk](https://github.com/uvdesk/community-skeleton)** | [![Stars](https://img.shields.io/github/stars/uvdesk/community-skeleton?style=social&color=white)](https://github.com/uvdesk/community-skeleton/stargazers) | PHP (Symfony), MySQL | OSL-3.0 | Modular open-source ticketing and helpdesk system featuring customer self-service portals, knowledge bases, workflows, and multi-channel ticket dispatching. |
@@ -94,7 +94,7 @@ Self-hosted ticketing systems, open-source helpdesks, and community-driven share
 1. 🍴 Fork this repository.
 2. ✍️ Edit `README.md` to submit your tool or update pricing/stars.
 3. 💲 Ensure every SaaS entry includes precise starting tier pricing and specific trial or free tier boundaries.
-4. ⭐ Ensure open-source additions include social star badge markdown pointing to the stargazer page (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`).
+4. ⭐ Ensure open-source additions include social Stars_Badge markdown pointing to the stargazer page (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`).
 5. 🚀 Open a Pull Request with a clear description of changes.
 
 ---
