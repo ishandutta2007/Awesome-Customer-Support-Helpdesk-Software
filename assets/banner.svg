@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="emeraldTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="amberOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="45" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.7" stroke-opacity="0.25"/>
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+      }
+      .floating-node {
+        animation: floatAnim 6s ease-in-out infinite alternate;
+      }
+      .floating-node-rev {
+        animation: floatAnimRev 7s ease-in-out infinite alternate;
+      }
+      .pulse-circle {
+        animation: pulseScale 4s ease-in-out infinite;
+      }
+      @keyframes floatAnim {
+        0% { transform: translateY(0px) scale(1); }
+        100% { transform: translateY(-12px) scale(1.02); }
+      }
+      @keyframes floatAnimRev {
+        0% { transform: translateY(0px) scale(1); }
+        100% { transform: translateY(14px) scale(0.98); }
+      }
+      @keyframes pulseScale {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.08); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Layer -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#grid)"/>
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <g opacity="0.3">
+    <circle cx="200" cy="80" r="130" fill="#38bdf8" filter="url(#glowCyan)" class="pulse-circle"/>
+    <circle cx="1020" cy="180" r="160" fill="#818cf8" filter="url(#glowPurple)" class="pulse-circle"/>
+    <circle cx="650" cy="380" r="140" fill="#c084fc" filter="url(#glowPurple)" class="pulse-circle"/>
+  </g>
+
+  <!-- Animated Background Network / Flow Nodes (Lower Z-Index) -->
+  <g opacity="0.45" stroke="#475569" stroke-width="1.5" stroke-dasharray="4 6">
+    <path d="M 120 330 C 260 270, 340 360, 480 310 S 760 370, 920 310 S 1080 340, 1140 280" fill="none"/>
+    <path d="M 80 120 C 220 180, 360 80, 520 120 S 840 80, 980 130 S 1100 90, 1150 140" fill="none"/>
+  </g>
+
+  <!-- Floating Dynamic Tech Cards / Pills in Mid-Ground -->
+  <g class="floating-node">
+    <g transform="translate(80, 305)">
+      <rect width="165" height="42" rx="21" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="24" cy="21" r="7" fill="#38bdf8"/>
+      <text x="42" y="26" fill="#e2e8f0" class="badge-text">🎫 Ticket Queues</text>
+    </g>
+  </g>
+
+  <g class="floating-node-rev">
+    <g transform="translate(950, 60)">
+      <rect width="180" height="42" rx="21" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="24" cy="21" r="7" fill="#c084fc"/>
+      <text x="42" y="26" fill="#e2e8f0" class="badge-text">🤖 Autonomous AI</text>
+    </g>
+  </g>
+
+  <g class="floating-node">
+    <g transform="translate(980, 305)">
+      <rect width="165" height="42" rx="21" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="24" cy="21" r="7" fill="#34d399"/>
+      <text x="42" y="26" fill="#e2e8f0" class="badge-text">⚡ Shared Inboxes</text>
+    </g>
+  </g>
+
+  <g class="floating-node-rev">
+    <g transform="translate(60, 60)">
+      <rect width="185" height="42" rx="21" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="24" cy="21" r="7" fill="#fbbf24"/>
+      <text x="42" y="26" fill="#e2e8f0" class="badge-text">🌐 Omnichannel Hub</text>
+    </g>
+  </g>
+
+  <!-- Foreground Title and Center Content (Stands out clearly) -->
+  <g transform="translate(600, 155)" text-anchor="middle">
+    <!-- Super Category Pill -->
+    <rect x="-170" y="-85" width="340" height="34" rx="17" fill="#1e293b" fill-opacity="0.9" stroke="url(#cyanPurple)" stroke-width="1.2"/>
+    <text x="0" y="-63" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">CURATED AWESOME ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text y="5" class="title-text" fill="url(#cyanPurple)">Customer Support &amp; Helpdesk</text>
+
+    <!-- Subtitle -->
+    <text y="48" class="subtitle-text">
+      The Ultimate Directory of SaaS Platforms &amp; Self-Hosted Open-Source Software
+    </text>
+
+    <!-- Bottom Feature Badges Bar -->
+    <g transform="translate(0, 95)">
+      <!-- Pill 1 -->
+      <rect x="-270" y="0" width="160" height="32" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="-190" y="20" fill="#cbd5e1" class="badge-text">⚡ Top SaaS Desks</text>
+
+      <!-- Pill 2 -->
+      <rect x="-85" y="0" width="170" height="32" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="0" y="20" fill="#cbd5e1" class="badge-text">🛠️ Open-Source Suites</text>
+
+      <!-- Pill 3 -->
+      <rect x="110" y="0" width="160" height="32" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+      <text x="190" y="20" fill="#cbd5e1" class="badge-text">💰 Transparent Pricing</text>
+    </g>
+  </g>
+
+  <!-- Decorative Outer Border -->
+  <rect width="1196" height="416" x="2" y="2" rx="15" fill="none" stroke="url(#cyanPurple)" stroke-width="1.5" stroke-opacity="0.5"/>
+</svg>

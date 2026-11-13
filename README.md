@@ -1,32 +1,48 @@
-# Awesome-Customer-Support-Helpdesk-Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome-Customer-Support-Helpdesk-Software
 
-> Curated list of customer support software, open-source helpdesk systems, ticketing platforms, and shared customer service inboxes.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Customer Support & Helpdesk Software Banner" width="100%" />
+</p>
 
-A comprehensive ecosystem overview tracking leading commercial **SaaS platforms** and **open-source GitHub projects** for **Customer Support & Helpdesk Software**. This collection covers ticket management, omnichannel messaging, AI service agents, ITIL service desks, and self-hosted shared customer service inboxes.
+<p align="center">
+  <a href="https://github.com/ishnndutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Customer-Support-Helpdesk-Software" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
+> 🌟 **Curated directory of customer support software, open-source helpdesk systems, ticketing platforms, and shared customer service inboxes.**
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Feature Matrix & Selection Guide](#feature-matrix--selection-guide)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Evaluation Notes](#disclaimer--evaluation-notes)
-
----
-
-## Sector Overview & Market Dynamics
-
-The global customer support and help desk software market is valued at approximately **$11B – $15.6B** (projected to reach over **$25B – $38B** by the mid-2030s at an 8–10% CAGR, with the customer self-service and conversational AI sub-segment expanding even faster at ~20% CAGR). 
-
-The sector is **moderately fragmented**: while enterprise mega-vendors like ServiceNow, Salesforce, Atlassian, and Zendesk command significant market share at the top tier, there is no single "winner-take-all" monopoly. Instead, the market is characterized by strong verticalized sub-markets—ranging from e-commerce specialist desks (Gorgias) and collaborative team email inboxes (Front, Help Scout) to developer-centric ITSM tools (Jira Service Management) and a vibrant ecosystem of self-hosted, open-source platforms (Chatwoot, Zammad, FreeScout) catering to privacy, compliance, and cost-conscious operators.
+A comprehensive ecosystem overview tracking leading commercial **SaaS platforms** ☁️ and **open-source GitHub projects** 💻 for **Customer Support & Helpdesk Software**. This collection covers ticket management 🎫, omnichannel messaging 💬, AI service agents 🤖, ITIL service desks 🏢, and self-hosted shared customer service inboxes 📬.
 
 ---
 
-## SaaS / Hosted Platforms
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧭 Feature Matrix & Selection Guide](#-feature-matrix--selection-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer & Evaluation Notes](#️-disclaimer--evaluation-notes)
 
-Below is a comparison of leading commercial customer support and helpdesk platforms, sorted in descending order by enterprise scale (company market capitalization, acquisition valuation, or ARR run-rate).
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global customer support and help desk software market is valued at approximately **$11B – $15.6B** (projected to reach over **$25B – $38B** by the mid-2030s at an 8–10% CAGR, with the customer self-service and conversational AI sub-segment expanding even faster at ~20% CAGR) 📈.
+
+The sector is **moderately fragmented**: while enterprise mega-vendors like ServiceNow, Salesforce, Atlassian, and Zendesk command significant market share at the top tier, there is no single "winner-take-all" monopoly 🌐. Instead, the market is characterized by strong verticalized sub-markets—ranging from e-commerce specialist desks (Gorgias) and collaborative team email inboxes (Front, Help Scout) to developer-centric ITSM tools (Jira Service Management) and a vibrant ecosystem of self-hosted, open-source platforms (Chatwoot, Zammad, FreeScout) catering to privacy, compliance, and cost-conscious operators 🚀.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+Below is a comparison of leading commercial customer support and helpdesk platforms, sorted in descending order by enterprise scale (company market capitalization, acquisition valuation, or ARR run-rate) 🏢.
 
 | Product | Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
 |:---|:---|:---|:---|:---|
@@ -43,9 +59,9 @@ Below is a comparison of leading commercial customer support and helpdesk platfo
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-Self-hosted ticketing systems, open-source helpdesks, and community-driven shared mailboxes. Sorted in descending order by GitHub stargazers count.
+Self-hosted ticketing systems, open-source helpdesks, and community-driven shared mailboxes. Sorted in descending order by GitHub stargazers count ⭐.
 
 | Project | Stars | Tech Stack | License | Description |
 |:---|:---:|:---|:---|:---|
@@ -63,30 +79,49 @@ Self-hosted ticketing systems, open-source helpdesks, and community-driven share
 
 ---
 
-## Feature Matrix & Selection Guide
+## 🧭 Feature Matrix & Selection Guide
 
-- **Best for Enterprise ITIL & Complex ITSM**: [ServiceNow CSM](https://www.servicenow.com/) (commercial) or [OTOBO](https://github.com/rotheross/otobo) (open source).
-- **Best Zendesk Alternative (Self-Hosted)**: [Zammad](https://github.com/zammad/zammad) for 1:1 enterprise feature parity with zero seat costs, or [Chatwoot](https://github.com/chatwoot/chatwoot) for omnichannel live messaging and bots.
-- **Best for Small Teams & Minimal Overhead**: [Help Scout](https://www.helpscout.com/) (commercial) or [FreeScout](https://github.com/freescout-help-desk/freescout) (open source, runs on $5/mo VPS or shared hosting).
-- **Best for E-Commerce Stores (Shopify/Magento)**: [Gorgias](https://www.gorgias.com/).
-- **Best Developer & Jira Integration**: [Jira Service Management](https://www.atlassian.com/software/jira/service-management).
-
----
-
-## How to Contribute
-
-1. Fork this repository.
-2. Edit `README.md` to submit your tool or update pricing/stars.
-3. Ensure every SaaS entry includes precise starting tier pricing and specific trial or free tier boundaries.
-4. Ensure open-source additions include social star badge markdown pointing to the stargazer page (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`).
-5. Open a Pull Request with a clear description of changes.
+- 🏢 **Best for Enterprise ITIL & Complex ITSM**: [ServiceNow CSM](https://www.servicenow.com/) (commercial) or [OTOBO](https://github.com/rotheross/otobo) (open source).
+- 🔄 **Best Zendesk Alternative (Self-Hosted)**: [Zammad](https://github.com/zammad/zammad) for 1:1 enterprise feature parity with zero seat costs, or [Chatwoot](https://github.com/chatwoot/chatwoot) for omnichannel live messaging and bots.
+- 📬 **Best for Small Teams & Minimal Overhead**: [Help Scout](https://www.helpscout.com/) (commercial) or [FreeScout](https://github.com/freescout-help-desk/freescout) (open source, runs on $5/mo VPS or shared hosting).
+- 🛍️ **Best for E-Commerce Stores (Shopify/Magento)**: [Gorgias](https://www.gorgias.com/).
+- 🛠️ **Best Developer & Jira Integration**: [Jira Service Management](https://www.atlassian.com/software/jira/service-management).
 
 ---
 
-## Disclaimer & Evaluation Notes
+## 🤝 How to Contribute
 
-- This repository is maintained as a community-curated reference list. Mention does not constitute an endorsement.
-- Support desks store sensitive customer Personally Identifiable Information (PII). Ensure appropriate encryption, automated backups, and GDPR/SOC-2 compliance whether self-hosting or purchasing SaaS.
-- **TCO & AI Billing Considerations**: 
+1. 🍴 Fork this repository.
+2. ✍️ Edit `README.md` to submit your tool or update pricing/stars.
+3. 💲 Ensure every SaaS entry includes precise starting tier pricing and specific trial or free tier boundaries.
+4. ⭐ Ensure open-source additions include social star badge markdown pointing to the stargazer page (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`).
+5. 🚀 Open a Pull Request with a clear description of changes.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using this curated list of customer support and helpdesk solutions! 🙏
+
+If you find this repository helpful, please consider:
+- ⭐ **Starring** the repository to show support and help others discover it.
+- 🍴 **Forking** and contributing missing tools, updates, or fixes.
+- 📢 **Sharing** with fellow developers, IT managers, and support teams.
+- ☕ **Buying a coffee / sponsoring** the creator to help maintain open-source resources:  
+  [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Customer-Support-Helpdesk-Software&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Customer-Support-Helpdesk-Software&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer & Evaluation Notes
+
+- This repository is maintained as a community-curated reference list. Mention does not constitute an endorsement ⚖️.
+- Support desks store sensitive customer Personally Identifiable Information (PII). Ensure appropriate encryption, automated backups, and GDPR/SOC-2 compliance whether self-hosting or purchasing SaaS 🔒.
+- 💡 **TCO & AI Billing Considerations**: 
   - Open-source helpdesk solutions save per-agent licensing fees, but require server maintenance, monitoring, and backup infrastructure (e.g., Zammad recommends 6 GB+ RAM plus Elasticsearch; OTOBO requires 8–16 GB RAM).
   - Modern SaaS pricing models are rapidly evolving: several platforms now charge per resolution outcome (e.g., Intercom Fin at $0.99 per outcome; Jira Service Management Customer Service add-on at $1 per resolution). High ticket volumes can alter total monthly expenditure significantly beyond baseline per-seat costs.
